@@ -1,0 +1,26 @@
+feat(parser): add retry with backoff
+
+Retries transient timeouts up to three times before failing.
+
+Refs: #412
+---
+fix: handle empty CSV header
+---
+unknown: rework the whole importer
+---
+Feat(Api): Add The New Endpoint.
+---
+chore(deps): bump pytest to 8.4
+
+Reviewed By: A Reviewer <reviewer@example.com>
+---
+feat!: drop the legacy /v1/search route
+---
+docs(readme): explain the --json flag
+
+Body explains the flag, and this paragraph is intentionally
+left without a blank line before it because it belongs to the body.
+
+BREAKING CHANGE: the old flag is gone
+---
+revert: undo the parser change

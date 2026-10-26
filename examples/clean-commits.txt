@@ -1,0 +1,11 @@
+feat(api): add idempotency keys
+---
+fix(cache): stop returning stale entries
+---
+docs: document the retry budget
+---
+feat(api)!: remove the legacy endpoint
+
+BREAKING CHANGE: clients must send an Idempotency-Key header
+---
+perf(search): skip empty segments
